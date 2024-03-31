@@ -1,9 +1,11 @@
 /*  */
 
 /* your css code here. If applicable */
-
+#openModal{
+	display:block;
+}
 .modal {
-  display: none; /* Initially hide the modal */
+  display: none; 
   position: fixed;
   z-index: 1;
   left: 0;
@@ -29,6 +31,7 @@
 }
 
 .close-modal {
+	display:none;
   float: right;
   font-size: 28px;
   font-weight: bold;
