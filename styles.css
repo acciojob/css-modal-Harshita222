@@ -1,6 +1,9 @@
-/*  your css code here. If applicable */
+/*  */
+
+/* your css code here. If applicable */
+
 .modal {
-  display: block;
+  display: none; /* Initially hide the modal */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -26,7 +29,6 @@
 }
 
 .close-modal {
-	display:none;
   float: right;
   font-size: 28px;
   font-weight: bold;
